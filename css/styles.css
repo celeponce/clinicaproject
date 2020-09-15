@@ -1,0 +1,67 @@
+.colorclinica {
+    background-color: #99d7df;
+}
+
+.colorbotones {
+    background-color:#42B5C5 !important;
+
+}
+.margenbotones{
+    margin-inline: 10px;
+}
+.letrabotones {
+    color: white !important;
+}
+
+.divgris{
+    flex: content;
+    background-color: #E5E5E5;
+    
+    color: #42B5C5 !important;
+}
+
+.divblanco{
+    flex: content;
+    
+    color: #42B5C5 !important;
+    
+
+}
+.divflex {
+    flex: content;
+    display: inline-flex;
+    
+}
+
+h1{
+align-self: center;
+display: inline-flex;
+align-self: center !important;}
+
+.clinicah1{
+    display: flex;
+    /* font-size: 60px; */
+    align-self: center;
+    font-display:; 
+    align-self: center !important;
+    color: #42B5C5 !important;
+}
+.clinicah5{
+    /* font-size: 20px; */
+    align-self: center;
+    display: inline-flex;
+    align-self: center !important;
+    color:#42B5C5 !important;
+    object-fit: cover !important;
+}
+.imagen {
+    object-fit: cover !important;
+    width: 100%;
+    height: 30%;
+    opacity: 0.2;
+}
+.imagendoc {
+    object-fit: cover !important;
+    color:#42B5C5 !important;
+    
+}
