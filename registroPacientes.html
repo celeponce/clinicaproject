@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CardioCare Regitro Médicos</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- Incluir achivo javascript en index.html -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="content-fluid">
+    <nav class="navbar navbar-light divgris">
+      <!-- Navbar content #99d7df-->
+      <div class="row">
+        <div class="col-sm-10 align-self-center justify-content-start divflex">
+          <a class="navbar-brand letrabotones" href="#">
+            <img src="./img/favicon_io_cardiocare/favicon.ico" class="d-inline-block align-top" alt="CardioCare">
+            <h1>CardioCare</h1>
+          </a>
+        </div>
+        <div class="col-sm-2  align-self-center">
+          <!-- <a href="" data-toggle="modal" data-target="#formloginintranetdatos"><button type="button"
+            class="btn btn-info colorbotones justify-content-end">Accede Intranet</button></a>
+        <a href="" data-toggle="modal" data-target="#formLoginpacientesdatos"><button type="button"
+            class="btn btn-info colorbotones justify-content-end">Solicitar Turnos</button></a> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- carga de datos de medicos-->
+    <div class="container">
+      <form class="form" id="formloginintranetdatos">
+        <div id="divloginintranet">
+          <h4>Registro Pacientes</h4>
+
+          <label for="input" class="sr-only">Nombre xxx</label>
+          <input type="text" id="nombrepaciente" class="form-control" placeholder="Ingrese Nombre" required autofocus />
+
+          <label for="input" class="sr-only">Apellido</label>
+          <input type="text" id="apellidopaciente" class="form-control" placeholder="Ingrese Apellido" required autofocus />
+
+          <label for="input" class="sr-only">DNI</label>
+          <input type="text" id="dnipaciente" class="form-control" placeholder="Ingrese DNI" required autofocus />
+
+          <label for="input" class="sr-only">Teléfono</label>
+          <input type="text" id="telefonopaciente" class="form-control" placeholder="Ingrese Teléfono" required
+            autofocus />
+
+          <label for="inputEmail" class="sr-only">email</label>
+          <input type="text" id="emailpaciente" class="form-control" placeholder="Ingrese e-Mail" required autofocus />
+
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="contrasena1paciente" class="form-control" placeholder="Ingrese Contraseña"
+            autocomplete="cc-number" required />
+
+          <label for="inputPassword" class="sr-only">Confirmar Password</label>
+          <input type="password" id="conrasena2paciente" class="form-control" placeholder="Confirme Contraseña"
+            autocomplete="cc-number" required />
+
+
+          <button class="btn btn-lg btn-primary btn-block colorbotones letrabotones" type="submit">Ingresar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer     -->
+  <footer class="footer-block text-center colorbotones letrabotones footerverde">
+    Copyright &#169; 2020 - Celeste Ponce - Martin Negrette
+    <a href="https://www.codear.com/">CodeAr.com</a>
+    <address class="letrabotones">
+      Contacto: <a href="andrea.celeste.ponce@gmail.com">info@codear.com</a>
+    </address>
+  </footer>
+  <!-- <script src="./js/login.js"></script> -->
+</body>
+
+</html>

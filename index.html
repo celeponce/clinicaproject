@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,7 +8,8 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <!-- <script src="./js/app.js"></script> -->
+  <!-- <script src="./js/loginadmin.js"></script> -->
 </head>
 
 <body>
@@ -23,8 +25,10 @@
           </a>
         </div>
         <div class="col-sm-2  align-self-center">
-          <button type="button" class="btn btn-info colorbotones justify-content-end">Accede Intranet</button>
-          <button type="button" class="btn btn-info colorbotones justify-content-end">Solicitar Turnos</button>
+          <a href="" data-toggle="modal" data-target="#formloginintranetdatos"><button type="button"
+              class="btn btn-info colorbotones justify-content-end">Accede Intranet</button></a>
+          <a href="" data-toggle="modal" data-target="#formLoginpacientesdatos"><button type="button"
+              class="btn btn-info colorbotones justify-content-end">Solicitar Turnos</button></a>
         </div>
       </div>
     </nav>
@@ -87,7 +91,8 @@
 
           <div class="card-body">
             <h5 class="card-title">Estudios de baja y alta complejidad</h5>
-            <p class="card-text">Equipos de vanguardia, junto a especialistas en lectura de imagenes, para colaborar en los mejores disagnósticos.</p>
+            <p class="card-text">Equipos de vanguardia, junto a especialistas en lectura de imagenes, para colaborar en
+              los mejores disagnósticos.</p>
 
           </div>
         </div>
@@ -99,14 +104,14 @@
 
           </div>
         </div>
-          <div class="card">
+        <div class="card">
 
           <div class="card-body">
             <h5 class="card-title">Consultorios de horario amplio y guardia</h5>
             <p class="card-text">Lunes a Viernes de 9 a 21. Guardia los Sábados y Domingos de 12 A 18</p>
 
           </div>
-        
+
         </div>
       </div>
 
@@ -165,8 +170,11 @@
         <div class="card-body">
           <div class="row">
             <div class="col-sm-10">
-              <h5 class="card-title"><a href="https://msptucuman.gov.ar/como-se-aplicara-el-protocolo-de-atencion-a-pacientes-covid-19/">Nuestro protocolo para la atención durante la pandemia</a></h5>
-              <p class="card-text">Te invitamos a conocer quieres pueden ser atendidos y como será la modalidad. Tambien brindaremos consultas por videollamada.</p>
+              <h5 class="card-title"><a
+                  href="https://msptucuman.gov.ar/como-se-aplicara-el-protocolo-de-atencion-a-pacientes-covid-19/">Nuestro
+                  protocolo para la atención durante la pandemia</a></h5>
+              <p class="card-text">Te invitamos a conocer quieres pueden ser atendidos y como será la modalidad. Tambien
+                brindaremos consultas por videollamada.</p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
             <div class="col-sm-2">
@@ -188,8 +196,12 @@
         <div class="card-body">
           <div class="row">
             <div class="col-sm-10">
-              <h5 class="card-title"><a href="https://www.elsevier.com/es-es/connect/medicina/6-claves-para-aprender-a-interpretar-el-electrocardiograma">6 claves para aprender a interpretar el electrocardiograma</a></h5>
-              <p class="card-text">En general cuando un estudiante se enfrenta al aprendizaje del electrocardiograma, y comienza a ver los trazados electrocardiográficos la palabra que lo define es TEMOR O MIEDO, por creer que no va a ser capaz de entenderlo.</p>
+              <h5 class="card-title"><a
+                  href="https://www.elsevier.com/es-es/connect/medicina/6-claves-para-aprender-a-interpretar-el-electrocardiograma">6
+                  claves para aprender a interpretar el electrocardiograma</a></h5>
+              <p class="card-text">En general cuando un estudiante se enfrenta al aprendizaje del electrocardiograma, y
+                comienza a ver los trazados electrocardiográficos la palabra que lo define es TEMOR O MIEDO, por creer
+                que no va a ser capaz de entenderlo.</p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
             <div class="col-sm-2">
@@ -211,8 +223,13 @@
         <div class="card-body">
           <div class="row">
             <div class="col-sm-10">
-              <h5 class="card-title"><a href="https://www.consalud.es/industria/nuevos-farmacos-en-enfermedad-cardiovascular-una-historia-de-exito_68887_102.html">Nuevos fármacos en enfermedad cardiovascular</a></h5>
-              <p class="card-text">Nosotros y nuestros socios almacenamos o accedemos a información en un dispositivo, tales como cookies, y procesamos datos personales, tales como identificadores únicos e información estándar enviada por un dispositivo, para anuncios y contenido personalizados, medición de anuncios y del contenido e información sobre el público, así como para desarrollar y mejorar productos.</p>
+              <h5 class="card-title"><a
+                  href="https://www.consalud.es/industria/nuevos-farmacos-en-enfermedad-cardiovascular-una-historia-de-exito_68887_102.html">Nuevos
+                  fármacos en enfermedad cardiovascular</a></h5>
+              <p class="card-text">Nosotros y nuestros socios almacenamos o accedemos a información en un dispositivo,
+                tales como cookies, y procesamos datos personales, tales como identificadores únicos e información
+                estándar enviada por un dispositivo, para anuncios y contenido personalizados, medición de anuncios y
+                del contenido e información sobre el público, así como para desarrollar y mejorar productos.</p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
             <div class="col-sm-2">
@@ -230,15 +247,108 @@
     </div>
   </div>
 
-   <!-- Footer     -->
-   <footer class="footer text-center colorbotones letrabotones">
-    Copyright &#169; 2020 - Celeste Ponce - Martin Negrette |
+
+  <!-- intranet modal login form     -->
+
+
+
+  <!-- <form id="formloginintranet"> -->
+  <div>
+    <form id="formloginintranet">
+    <div class="modal fade"id="formloginintranetdatos"tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center colorbotones">
+            <h4 class="modal-title w-100 font-weight-bold letrabotones">Intranet Login</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3" id="divloginintranetdatos">
+            <div class="md-form mb-5">
+              <label data-error="wrong" data-success="right" for="defaultForm-pass">Usuario</label>
+              <input type="text" id="inputUsernamemodalintranet" class="form-control" placeholder="Ingrese e-Mail" 
+                autofocus autocomplete="username"/>
+            </div>
+
+            <div class="md-form mb-4">
+              <i class="fas fa-lock prefix grey-text"></i>
+
+              <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+              <form>
+              <input type="password" id="inputPasswordmodalintranet" class="form-control" placeholder="Ingrese contraseña"
+                 autocomplete="current-password"/>
+              </form>
+            </div>
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="submit" class="btn btn-default colorbotones letrabotones">Ingresar</button>
+           <a href="" ><button type="submit" id="botonregistrointranet" class="btn btn-default colorbotones letrabotones">Registrarme</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+
+ <!-- Pacientes modal login form     -->
+
+
+
+    <div>
+      <form id="formLoginpacientes">
+      <div class="modal fade"id="formLoginpacientesdatos"tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center colorbotones">
+              <h4 class="modal-title w-100 font-weight-bold letrabotones">Pacientes Login</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body mx-3" id="divloginpacientesdatos">
+              <div class="md-form mb-5">
+                <label data-error="wrong" data-success="right" for="defaultForm-pass">Usuario</label>
+                <input type="text" id="inputUsernamemodalpacientes" class="form-control" placeholder="Ingrese e-Mail" required
+                  autofocus autocomplete="username"/>
+              </div>
+  
+              <div class="md-form mb-4">
+                <i class="fas fa-lock prefix grey-text"></i>
+  
+                <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+                <form>
+                <input type="password" id="inputPasswordmodalpacientes" class="form-control" placeholder="Ingrese contraseña"
+                  required autocomplete="current-password"/>
+                </form>
+              </div>
+  
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button type="submit" class="btn  colorbotones letrabotones ">Ingresar</button>
+              
+              <a href="./registroPacientes.html"><button type="submit" class="btn  colorbotones letrabotones ">Registrarme</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    </div>
+  
+
+  <!-- Footer     -->
+  <footer class="footer text-center colorbotones letrabotones">
+    Copyright &#169; 2020 - Celeste Ponce - Martin Negrette 
     <a href="https://www.codear.com/">CodeAr.com</a>
     <address class="letrabotones">
       Contacto: <a href="andrea.celeste.ponce@gmail.com">info@codear.com</a>
     </address>
   </footer>
-
+  <script src="./js/loginadmin.js"></script>
+    <script src="./js/loginpacientes.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

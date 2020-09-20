@@ -65,3 +65,10 @@ align-self: center !important;}
     color:#42B5C5 !important;
     
 }
+
+.footerverde{
+    
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+}
